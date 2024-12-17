@@ -1,0 +1,13 @@
+MY APPROACH
+Data Processing and Visualization
+1. Data Loading and Preprocessing:
+    ✓ Extract only the rows where type is impedance.
+    ✓ Ensure columns like Re and Rct are numerical.
+    ✓ Add a sequential cycle_count column based on the experiment's temporal progression.
+2. Filtering the Relevant Data:
+    ✓ Filter rows with type = "impedance" since only those have values for Re and Rct.
+    ✓ Verify and clean the Re and Rct columns, handling missing or non-numerical values.
+3. Plotting with Plotly:
+    ✓ Use Plotly Express to create line plots showing:
+        ▪ Re vs. cycle_count.
+        ▪ Rct vs. cycle_count
